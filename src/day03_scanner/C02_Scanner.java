@@ -8,17 +8,16 @@ public class C02_Scanner {
 
         // Kullanicidan bir tamsayi alip, karesini yazdirin
 
-        // Sccanner ile kullanicidan bir bilgiyi 3 adimda alabiliriz
-        // 1.adim : scanner objesi olusturmak
+        // Scanner ile kullanicidan bir bilgiyi 3 adimda alabiliriz
+        // 1.adim : Scanner objesi olusturmak
 
         Scanner scanner = new Scanner(System.in);
 
         // 2.adim : Kullaniciya ne istediginizi soyleyin
         System.out.println("Lutfen bir tamsayi giriniz");
 
-        // 3.adim istediginiz datanin turune uygun bir variable olusturun
-        //        ve scanner objesini kullanark uygun method'la
-        //        kullanicinin girdigi degeri alin
+        // 3.adim : istediginiz datanin turune uygun bir variable olusturun
+        //          ve scanner objesini kullanarak uygun method'la kullanicinin girdigi degeri alin
 
         int girilenSayi = scanner.nextInt();
 

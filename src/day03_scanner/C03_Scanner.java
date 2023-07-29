@@ -11,7 +11,7 @@ public class C03_Scanner {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Lutfen bir double sayi giriniz");
+        System.out.println("Lutfen bir ondalikli sayi giriniz");
 
         double girilenDouble = scanner.nextDouble();
 
@@ -21,5 +21,6 @@ public class C03_Scanner {
 
         System.out.println("Iki sayinin toplami : " + (girilenInt + girilenDouble));
         System.out.println("Iki sayinin carpimi : " + girilenDouble*girilenInt);
+
     }
 }

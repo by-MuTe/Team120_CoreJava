@@ -5,41 +5,63 @@ import java.util.Scanner;
 public class C04_Scanner {
     public static void main(String[] args) {
 
-        //Soru 3- Kullanicidan ismini, soyismini ve yasini alip,
-        //        asagidaki formmatta yazdirin.
-        //		Isminiz : John
-        //		Soyisminiz : Doe
-        //		Yasiniz : 44
-        //		Kaydiniz basariyla tamamlanmistir.
+        /*
+        Soru 3- Kullanicidan ismini, soyismini ve yasini alip,
+        asagidaki formmatta yazdirin.
+		Isminiz : John
+		Soyisminiz : Doe
+		Yasiniz : 44
+		Kaydiniz basariyla tamamlanmistir.
+         */
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner scan= new Scanner(System.in);
 
-        System.out.println("Lutfen isminizi yaziniz");
+        System.out.println("Lutfen isminizi giriniz");
 
-        String girilenIsim = scanner.nextLine();
+        String isim = scan.nextLine();
 
-        System.out.println("Lutfen soyisminizi giriniz");
+        System.out.println("Lutfen soyisminizi yaziniz");
 
-        String girilenSoyisim = scanner.nextLine();
+        String soyisim= scan.nextLine();
 
         System.out.println("Lutfen yasinizi giriniz");
 
-        int girilenYas= scanner.nextInt();
+        double yas= scan.nextDouble();
 
         /*
-        System.out.println("Isminiz : " + girilenIsim);
-        System.out.println("Soyisminiz : " + girilenSoyisim);
-        System.out.println("Yasiniz : " + girilenYas);
-        System.out.println("Kaydiniz basariyla tamamlanmistir.");
+        System.out.println("Isminiz : " + isim);
+        System.out.println("Soyisminiz : " + soyisim);
+        System.out.println("Yasiniz : " + yas);
+        System.out.println("Kaydiniz basariyla tamamlanmistir");
+
+        Kullanici istedigimiz data turunde bilgi girisi yapmazsa
+        Kodumuzda hata olusur ve calisma durur
+        Ilerde kullanici hatalarina karsi nasil tedbirler alacagimizi ogrenecegiz
+        SIMDILIK kullanici biz ne diyorsak onu tam yapiyor kabul edelim
          */
 
-        // sout icerisindeki bir String'in yazdirilmasina
-        // alt satirdan devam edilmesini isterseniz
-        // String'in alt satira gecmesini istediginiz kisminda \n yazin
-        System.out.println("Isminiz : " + girilenIsim +
-                "\nSoyisminiz : " + girilenSoyisim+
-                "\nYasiniz : " + girilenYas+
-                "\nKaydiniz basariyla tamamlanmistir.");
+        /*
+        System.out.print("Isminiz : " + isim);
+        System.out.print("Soyisminiz : " + soyisim);
+        System.out.print("Yasiniz : " + yas);
+        System.out.print("Kaydiniz basariyla tamamlanmistir");
+
+        System.out.println()'deki ln
+        yazdirma islemini yaptiktan sonra
+        alt satira gecmesini saglar
+        println yerine print yazarsak
+        yazdirdigimiz seyler yanyana yazdirilir
+         */
+
+        System.out.println("Isminiz : " + isim+
+                "\nSoyisminiz : " + soyisim+
+                "\nYasiniz : " + yas+
+                "\nKaydiniz basariyla tamamlanmistir");
+
+        /*
+        Tek bir System.out.println() ile birden fazla satir yazdirmak isterseniz
+        String bir ifadenin icinde (çift tırnak içerisinde) istedigimiz yere \n yazabilirsiniz
+         */
 
     }
 }

@@ -10,8 +10,7 @@ public class C01_DataCasting {
             birbirine cast edebiliriz
 
             1- daha kucuk data turundeki degeri, daha genis data turundeki variable'e atama yaparsak
-               Java Auto Widening yapar
-               yani otomatik olarak bu islemi yapar
+               Java Auto Widening yapar yani otomatik olarak bu islemi yapar
             2- daha genis kapsamli data turundeki degeri, daha dar kapsamli variable'a atama yaparsak
                Java bunu otomatik olarak yapmaz
                Biz sorumlulugu uzerimize alarak bu casting'i yaptirabiliriz
@@ -34,12 +33,13 @@ public class C01_DataCasting {
 
         String s1 = str;
 
-
         // boolean bl2= 10;
         // boolean bl2 = 's';
 
-
         int sayi2 = 'k';
+        char ch=99; // c
+        //ascii tablosuna gore deger alabilirler
+
         double dbl1 = sayi2;
         // String str2 = sayi2;
 
@@ -65,8 +65,29 @@ public class C01_DataCasting {
         sh1 = (short)sayi3;
         sh1 = by1;
 
+        /*
+        String str= 23;
+        int sayi="Merhaba Java";
+        char ilkHarf=true;
+         */
 
+        short sayi5=45;
 
+        int sayi6=sayi5;
+        // int   = short  degerin kapasitesi variable'in kapasitesinden kucuk oldugundan sorun yok
+
+        int sayi7=45;
+
+        double sayi8=sayi7;
+        // double  =  int degerin kapasitesi variable'in kapasitesinden kucuk oldugundan sorun yok
+
+        double sayi9= 5;
+        //int sayi10=sayi9;
+        // int     = double   double olan deger'in kapasitesi, int olan variable'in kapasitesinden buyuk
+        //                    java otomatik cevirme yapmaz
+
+        int sayi11=99;
+        //byte sayi12=sayi11;
 
     }
 }

@@ -31,17 +31,5 @@ public class C02_ExplicitNarrowing {
         byte by5= (byte)sayi5;
         System.out.println("by5 : "+by5);// 8
 
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

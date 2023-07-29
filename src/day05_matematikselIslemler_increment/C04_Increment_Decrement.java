@@ -1,6 +1,6 @@
 package day05_matematikselIslemler_increment;
 
-public class C03_Increment_Decrement {
+public class C04_Increment_Decrement {
 
     public static void main(String[] args) {
 
@@ -19,7 +19,6 @@ public class C03_Increment_Decrement {
 
         System.out.println(sayi);
 
-
         sayi = 10 ;
 
         sayi *= 3; // sayi =30
@@ -35,24 +34,20 @@ public class C03_Increment_Decrement {
         // a'nin degerini yeni olusturdugumuz b'ye atayip, sonra a'nin degerini bir artirin
         // a ve b'yi yazdirin
 
-
         int b = a;
         a++;
 
         System.out.println("a : " + a + " b : " + b); // a : 11 b : 10
 
-
-
         a= 10;
 
         // a'nin degerini bir artirin, sonra a'nin degerini b'ye atayin
+        // a ve b'yi yazdirin
 
         a++;
-
         b = a ;
 
         System.out.println("a : " + a + " b : " + b); // a : 11 b : 11
-
 
     }
 }

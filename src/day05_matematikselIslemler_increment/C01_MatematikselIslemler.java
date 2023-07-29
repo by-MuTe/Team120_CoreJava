@@ -15,6 +15,10 @@ public class C01_MatematikselIslemler {
         double c = 27;
 
         // Eger bolunen sayi veya bolen sayidan double olan varsa sonucu double olarak verir
+        // int / double ==> double
+        // bir int bir double işleme girerse sonucu double verir
+        // bolunen sayilarin data turleri farkli ise sonucu daha genis olanin cinsinden verir
+
         System.out.println(c / b); // 27 / 4 = 6.75
 
         // a'yi b' ye bolup sonucu ondalikli olarak yazdirin
@@ -30,6 +34,12 @@ public class C01_MatematikselIslemler {
         double sonuc3 = (double)a / b ;
         System.out.println("Sonuc3 : " + sonuc3 ); // 6.75
 
+        // islem onceligi (a/b)'dedir.
+        // Java oncelikle (a/b) islemini yapar ve sonucu 3 bulur
+        // sonra (double) oldugundan 3'u double'a cast eder 3.0 bulur
+
+        // bolme isleminin sonucunun double olmasi icin
+        // isleme girenlerden birisi double olmalidir
 
         System.out.println(2567 / 10 ); // 256.7 ==> 256
         System.out.println(2567 % 10 ); // 7
@@ -42,7 +52,6 @@ public class C01_MatematikselIslemler {
 
         System.out.println(2 / 10 ); // 0.2 ==> 0
         System.out.println(2 % 10 ); // 2
-
 
     }
 }

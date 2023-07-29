@@ -6,9 +6,9 @@ public class C04_CharCasting {
 
     public static void main(String[] args) {
 
-        // Kullanicidan bir char isteyin
-        // girilen char'dan sonraki 3 karakteri yazdirin
-        // Orn : input : a   output : b,c,d
+        // Soru 2 - Kullanicidan bir char isteyin
+        //          girilen char'dan sonraki 3 karakteri yazdirin
+        //          Orn : input : a   output : b,c,d
 
         Scanner scanner = new Scanner(System.in);
 

@@ -10,16 +10,16 @@ public class C01_DataCasting {
             birbirine cast edebiliriz
 
             1- daha kucuk data turundeki degeri, daha genis data turundeki variable'e atama yaparsak
-               Java Auto Widening yapar yani otomatik olarak bu islemi yapar
+               Java Auto Widening(İmplicit Data Casting) yapar yani otomatik olarak bu islemi yapar
             2- daha genis kapsamli data turundeki degeri, daha dar kapsamli variable'a atama yaparsak
                Java bunu otomatik olarak yapmaz
-               Biz sorumlulugu uzerimize alarak bu casting'i yaptirabiliriz
+               Biz sorumlulugu uzerimize alarak bu casting'i yaptirabiliriz (Explicit Data Casting)
 
                sorumlulugu almak icin
                degerin onune bir parantez acip
                parantez icine cast etmek istedigimiz data turunu yazabiliriz
 
-               Daraltma (Explicit Narrowing)yapildiginda
+               Daraltma(Explicit Narrowing) yapildiginda
                data kayiplari olabilecegi gibi,
                data baskalasabilir de
 

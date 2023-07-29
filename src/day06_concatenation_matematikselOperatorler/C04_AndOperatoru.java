@@ -1,6 +1,6 @@
 package day06_concatenation_matematikselOperatorler;
 
-public class C03_AndOperatoru {
+public class C04_AndOperatoru {
 
 
     public static void main(String[] args) {

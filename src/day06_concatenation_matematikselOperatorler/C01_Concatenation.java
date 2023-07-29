@@ -3,6 +3,10 @@ package day06_concatenation_matematikselOperatorler;
 public class C01_Concatenation {
     public static void main(String[] args) {
 
+        // Concatenation = String Birleştirme
+
+        // Eger String ile baska data turundeki bir deger toplanirsa Java sonucu String yapar
+
         String s1 = "Java";
         String s2 = "Candir";
         String s3 = " ";
@@ -14,7 +18,6 @@ public class C01_Concatenation {
         // asagida verilen metin'leri yazdirin
 
         // Java35
-
         System.out.println(s1+a+b); // "Java35"
 
         // Java15
@@ -24,16 +27,14 @@ public class C01_Concatenation {
         System.out.println(a+b+s2); // "8Candir"
 
         // 53Java
-
-        System.out.println( b+ (a+s1)  );// "53Java"
-
-        System.out.println( s4 + b + a + s1);// "5" + 3 ==> "53"+ "Java ==> "53Java"
-
-        System.out.println( b + s4 + a + s1);
-
+        System.out.println( b+ (a+s1)  ); // "53Java"
+        System.out.println( s4 + b + a + s1); // "5" + 3 ==> "53"+ "Java ==> "53Java"
+        System.out.println( b + s4 + a + s1); // "53Java"
 
         // 35 Java
-
         System.out.println(s4 + a + b + s3 + s1); // 35 Java
+
+        // System.out.println(s1-a);  + disinda hic bir islem String'le kullanilamaz
+
     }
 }

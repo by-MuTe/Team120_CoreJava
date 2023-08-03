@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class C07_IfElseStatements {
     public static void main(String[] args) {
 
-        // kullanicidan notunu isteyin
-        // 50 ve uzeri ise sinifi gectin
-        // degilse maalesef kaldin yazdirin
+        // Soru 2-  Kullanicidan notunu alin
+        //          50 ve uzeri ise "Sinifi gectin"
+        //          degilse "Maalesef kaldin" yazdirin
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Lutfen notunuzu giriniz");
@@ -23,7 +23,8 @@ public class C07_IfElseStatements {
 
             Bagimsiz if cumlelerinden farkli olarak
             if else cumlelerinde
-            ya if body'si, ya else body'si calisir
+            ya if body'si,
+            ya else body'si calisir
 
             IKISININ BIRDEN calismasi mumkun olmadigi gibi,
             IKISININ DE CALISMAMASI mumkun degildir.
@@ -34,7 +35,6 @@ public class C07_IfElseStatements {
         } else {
             System.out.println("Maalesef kaldin");
         }
-
 
     }
 }

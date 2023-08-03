@@ -7,15 +7,16 @@ public class C03_KarsilastirmaOperatorleri {
         int a = 10;
         int b = 20;
 
-        // Java'da = isareti karsilastirma degil, atama isaretidir (asignment)
+        // Java'da = isareti karsilastirma degil, atama isaretidir (assignment)
 
         b = 2 * a ;
 
         // Java'da esitligi kontrol etmek istersek == kullaniriz
+        // Sonuc olarak bize true veya false doner
 
         System.out.println( b == 2*a ); // 20 == 20 ==> true
 
-        // asignment'a esitligin sol tarafinda sadece variable bulunur
+        // assignment'in esitligin sol tarafinda sadece variable bulunur
         // sol tarafta matematiksel islem olmaz
         // karsilastirma operatorlerinde iki tarafta da islem olabilir
 
@@ -30,8 +31,8 @@ public class C03_KarsilastirmaOperatorleri {
         boolean degeri tersine cevirir.
         Esit degildir !=
         !true=false
-        !(5==5)=false
-        5!=5=false
+        !(5==5) ==> false
+        5!=5 ==> false
          */
 
         System.out.println(a < b); // true

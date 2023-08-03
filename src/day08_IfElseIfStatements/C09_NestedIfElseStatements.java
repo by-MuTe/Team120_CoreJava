@@ -2,7 +2,7 @@ package day08_IfElseIfStatements;
 
 import java.util.Scanner;
 
-public class C07_NestedIfElseStatements {
+public class C09_NestedIfElseStatements {
     public static void main(String[] args) {
 
         // Kullanicidan cinsiyetini ve yasini alin,

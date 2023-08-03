@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class C08_IfElseStatements {
     public static void main(String[] args) {
 
-        //Soru 1- Kullanicidan bir ucgenin 3 kenar uzunlugunu alin,
-        //        ucgen eskenar ise “Eskenar ucgen” yazdirin,
-        //        degilse “Eskenar degil” yazdirin.
+        // Soru 1- Kullanicidan bir ucgenin 3 kenar uzunlugunu alin,
+        //         ucgen eskenar ise “Eskenar ucgen” yazdirin,
+        //         degilse “Eskenar degil” yazdirin.
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ucgenin kenar uzunluklarini giriniz");

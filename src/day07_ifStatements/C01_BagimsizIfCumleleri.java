@@ -3,25 +3,21 @@ package day07_ifStatements;
 public class C01_BagimsizIfCumleleri {
 
     public static void main(String[] args) {
+
         /*
             Bagimsiz if cumleleri
-            isminden de anlasilacagi uzere
-            kodun kalani ile ilgilenmez
-
+            isminden de anlasilacagi uzere kodun kalani ile ilgilenmez
             sadece boolean sarta odaklanir
             sartin sonucu true ise if body'si calisir
-            bolean sartin sonucu false ise
-            if body'si devreye girmez
+            boolean sartin sonucu false ise if body'si devreye girmez
 
-            YANIII
+            Yaniii
 
-            birden fazla bagimsiz if cumlesi olan bir kod calistiginda
+            Birden fazla bagimsiz if cumlesi olan bir kod calistiginda
             kac tane if body'sinin calisacagi verilen degerlere baglidir
-
             tum if body'leri calisabilir
             bazilari calisabilir
             ya da hic bir if body'si calismayabilir
-
          */
 
         int a = -201;
@@ -43,6 +39,17 @@ public class C01_BagimsizIfCumleleri {
             System.out.println("b 100'den kucuk bir tamsayidir");
         }
 
+        boolean sonuc = a*7 > b ;
+
+        /*
+           bazen if statement'da direk boolean bir deger sart olarak yazilabilir
+           bu durumda boolean variable degeri true ise if body calisir,
+           false ise if body calismaz
+         */
+
+        if (sonuc) {
+            System.out.println("istenen sart saglandi" );
+        }
 
     }
 }

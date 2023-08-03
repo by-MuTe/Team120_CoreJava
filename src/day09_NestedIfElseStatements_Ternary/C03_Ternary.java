@@ -20,7 +20,6 @@ public class C03_Ternary {
             System.out.println("Tek sayi");
         }
 
-
         /*
             If else ile yapabilecegimiz
             basit islemleri
@@ -28,6 +27,8 @@ public class C03_Ternary {
          */
 
         System.out.println(sayi % 2 == 0 ? "Cift sayi" : "Tek Sayi");
+
+        // Ternary,sadece deger dondurdugu icin, ya yazdirmali veya bir variable’a atamaliyiz.
 
     }
 }

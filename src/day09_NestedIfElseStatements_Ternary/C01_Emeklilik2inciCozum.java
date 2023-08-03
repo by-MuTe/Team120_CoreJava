@@ -18,37 +18,34 @@ public class C01_Emeklilik2inciCozum {
         System.out.println("Lutfen yasinizi giriniz");
         double yas = scanner.nextDouble();
 
-        if (yas<10 || yas >80){
+        if (yas<0 || yas >100){
             System.out.println("Gecersiz yas");
         } else if (yas < 60) { // kimse emekli olamaz
-            if (cinsiyet == 'K'){
+
+            if (cinsiyet == 'K') {
                 System.out.println("Kadin emekli olabilmek icin daha " + (60-yas) + " yil daha calismali");
-            } else if (cinsiyet == 'E') {
+            }else if (cinsiyet == 'E') {
                 System.out.println("Erkek emekli olabilmek icin daha " + (65-yas) + " yil daha calismali");
-
             }else {
-                System.out.println("cinsiyet hatali");
+                System.out.println("Cinsiyet hatali");
             }
-
         } else if (yas<65) { // sadece kadinlar emekli olabilir
 
-            if (cinsiyet == 'K'){
+            if (cinsiyet == 'K') {
                 System.out.println("Kadin emekli olabilir");
             } else if (cinsiyet == 'E') {
                 System.out.println("Erkek emekli olabilmek icin daha " + (65-yas) + " yil daha calismali");
             }else {
-                System.out.println("cinsiyet hatali");
+                System.out.println("Cinsiyet hatali");
             }
+        } else { // herkes emekli olabilir
 
-        }else{ // herkes emekli olabilir
-            if (cinsiyet == 'K' || cinsiyet == 'E'){
+            if (cinsiyet == 'K' || cinsiyet == 'E') {
                 System.out.println("Emekli olabilir");
             }else {
-                System.out.println("cinsiyet hatali");
+                System.out.println("Cinsiyet hatali");
             }
-
         }
-
 
     }
 }

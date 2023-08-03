@@ -2,7 +2,7 @@ package day09_NestedIfElseStatements_Ternary;
 
 import java.util.Scanner;
 
-public class C08_SwitchStatements {
+public class C10_SwitchStatements {
     public static void main(String[] args) {
 
         // Soru 3- Kullanicidan ay numarasini alip ay ismini yazdirin

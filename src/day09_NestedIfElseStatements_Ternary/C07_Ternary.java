@@ -14,5 +14,6 @@ public class C07_Ternary {
         double sayi = scanner.nextDouble();
 
         System.out.println( sayi>0 ? sayi : -1*sayi);
+
     }
 }

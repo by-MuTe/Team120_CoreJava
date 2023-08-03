@@ -16,9 +16,7 @@ public class C04_Ternary {
 
 
         String sonuc = input%3 == 0 ? "3 ile tam bolunuyor" : "3 ile tam bolunmuyor" ;
-
         System.out.println(sonuc);
-
 
         // verilen input cift sayi ise "cift sayi" ,
         // input tek sayi ise 2 * input sonucunu veren bir ternary yazin
@@ -32,10 +30,8 @@ public class C04_Ternary {
             Eger ternary'de true durumu ile false durumu
             bize farkli data turunde sonuclar donduruyorsa
             sonucu bir variable'a atayamayiz
-
             ama direk yazdirabiliriz
          */
-
 
     }
 }

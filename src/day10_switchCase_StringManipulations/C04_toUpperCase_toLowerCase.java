@@ -12,13 +12,12 @@ public class C04_toUpperCase_toLowerCase {
 
         str = str.toUpperCase(); // JAVA CANDIR
 
-
         System.out.println(str.toLowerCase()); // java candir
 
         // eger yerel bir dile gore buyuk kucuk harf degisimi yapmak istersek
 
         System.out.println(str.toLowerCase(Locale.forLanguageTag("Tr"))); // java candır
-
+        System.out.println(str.toLowerCase(Locale.GERMAN)); // java candir
 
     }
 }

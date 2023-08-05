@@ -13,11 +13,9 @@ public class C01_SwitchStatements {
         //	S : Software
         //	T : Testing
         //	Q : Qualifications
-        //	B: Board
-
+        //	B : Board
 
         Scanner scan = new Scanner(System.in);
-
         System.out.println("Lutfen anlamini gormek istediginiz harfi giriniz");
 
         char harf = scan.next().toUpperCase().charAt(0);
@@ -43,5 +41,6 @@ public class C01_SwitchStatements {
                 System.out.println("Yazdiginiz harf ISTQB'de yok");
 
         }
+
     }
 }

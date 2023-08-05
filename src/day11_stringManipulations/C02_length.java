@@ -1,5 +1,6 @@
 package day11_stringManipulations;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class C02_length {
@@ -13,9 +14,13 @@ public class C02_length {
 
         System.out.println("son harf : " + isim.charAt(isim.length()-1)); // u
 
-
         // sondan 5.harfi yazdirin
         System.out.println(isim.charAt(isim.length()-5)); // z
+
+        // Rastgele bir karakterini yazdiralim
+        Random rnd = new Random(); // rnd degeri icin 0 ile 1 arasinda rastgele bir deger olusturur
+        int index = rnd.nextInt(isim.length()); // str.length()'den kucuk rastgele bir int uretir
+        System.out.println(isim.charAt(index));
 
         // kullanicidan ismini alin
         // ve ortadaki harfi yazdirin
@@ -31,9 +36,9 @@ public class C02_length {
             System.out.println("Uzunluk cift, ortadaki iki harf : " +
                     girilenIsim.charAt(uzunluk/2 -1)+
                     girilenIsim.charAt(uzunluk/2));
-
         }else{ // uzunluk tekse
             System.out.println("Uzunluk tek, ortadaki harf : " + girilenIsim.charAt((uzunluk-1)/2));
         }
+
     }
 }

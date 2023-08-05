@@ -2,7 +2,7 @@ package day09_NestedIfElseStatements_Ternary;
 
 import java.util.Scanner;
 
-public class C10_SwitchStatements {
+public class C11_SwitchStatements {
     public static void main(String[] args) {
 
         // Soru 3- Kullanicidan ay numarasini alip ay ismini yazdirin
@@ -26,6 +26,8 @@ public class C10_SwitchStatements {
         else if (ayNo == 11) System.out.println("Kasim");
         else if (ayNo == 12) System.out.println("Aralik");
         else System.out.println("Ay numarasi yanlis");
+
+        // görünüm ve kod karisik o yüzden switch-case kullanilir
 
         System.out.println("===============");
 
@@ -70,6 +72,12 @@ public class C10_SwitchStatements {
             default:
                 System.out.println("Ay numarasi yanlis");
         }
+
+        // switch parantezine yazilan deger
+        // hic bir case ile uyusmazsa
+        // default; satiri devreye girer.
+        // (if-else if-if… lerin sonundaki else gibi)
+
     }
 }
 

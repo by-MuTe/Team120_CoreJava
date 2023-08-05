@@ -13,7 +13,6 @@ public class C03_substring {
             2- baslangic ve bitis indexlerini verirseniz
                baslangic index'inden (dahil) baslar
                bitis index'ine kadar(haric) aradaki karakterleri yazdirir
-
          */
 
         System.out.println(str.substring(3)); // a Candir
@@ -46,12 +45,9 @@ public class C03_substring {
 
         // System.out.println(str.substring(8,5)); // StringIndexOutOfBoundsException
 
-
-
         // son 3 harfi yazdirin
 
         System.out.println(str.substring(str.length()-3)); // dir
-
 
         String str1 = "Java";
         String str2 = " ";
@@ -59,5 +55,6 @@ public class C03_substring {
 
         System.out.println(str1+ str2 + str3); // Java Candir
         System.out.println(str1.concat(str2).concat(str3)); // Java Candir
+
     }
 }

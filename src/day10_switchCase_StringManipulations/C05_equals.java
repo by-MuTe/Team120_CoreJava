@@ -17,7 +17,8 @@ public class C05_equals {
         /*
             String'lerde == bekledigimiz sonuclari DONMEYEBILIR
             Bunun sebebi String class'ini olustururken yapilan bazi ozelliklerdir
-            bu konu ilerde detayli bir sekilde anlatilacak
+            bu konu (String Pool) ilerde detayli bir sekilde anlatilacak
+            == hem metne hem de stack memory'deki referansa baktigi icin bu durum olusur
 
             Verilen iki String'in metinsel olarak ayni olup olmadigini
             kontrol etmek icin == yerine equals() kullanilir
@@ -29,13 +30,11 @@ public class C05_equals {
 
             EGER case sensitive olmadan metinleri karsilastirmak isterseniz
             equalsIgnoreCase()'u kullanilir
-
          */
 
         System.out.println(str1.equals(str2)); // Mehmet -- MEHMET  false
         System.out.println(str3.equals(str4.toLowerCase())); // mehmet == mehmet  true
         System.out.println(str2.equals(str3.toUpperCase())); // MEHMET == MEHMET true
-
 
         System.out.println(str1.equalsIgnoreCase(str2)); // Mehmet -- MEHMET true
         System.out.println(str1.equalsIgnoreCase(str3)); // Mehmet -- mehmet true

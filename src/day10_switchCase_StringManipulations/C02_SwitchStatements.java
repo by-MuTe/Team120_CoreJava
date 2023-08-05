@@ -8,7 +8,6 @@ public class C02_SwitchStatements {
         //Soru 5- Kullanicidan gun numarasini alip
         //        hafta ici veya hafta sonu yazdirin
 
-
         Scanner scan = new Scanner(System.in);
         System.out.println("Gun numarasi giriniz");
         int gunNo= scan.nextInt();
@@ -30,5 +29,10 @@ public class C02_SwitchStatements {
                 System.out.println("Gun numarasi 1-7 arasinda olmalidir");
 
         }
+
+        // break;   komutunu her case’den sonra kullanmak zorunda degiliz,
+        //          ancak bu durumda kodun break gorunceye kadar devam edecegini unutmamamiz gerekir.
+        //          case’leri gruplandirmak icin bu yontem kullanilabilir.
+
     }
 }

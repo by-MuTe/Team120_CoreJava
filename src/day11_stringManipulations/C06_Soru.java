@@ -21,5 +21,6 @@ public class C06_Soru {
         } else if (!mail.endsWith("@gmail.com")) {
             System.out.println("mailde yazim hatasi var");
         }
+
     }
 }

@@ -1,4 +1,4 @@
-package day12_StringManipulation;
+package day12_stringManipulation;
 
 public class C04_nullPointer {
 

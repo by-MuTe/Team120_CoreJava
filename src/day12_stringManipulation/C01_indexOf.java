@@ -1,6 +1,6 @@
-package day12_StringManipulation;
+package day12_stringManipulation;
 
-public class C01_IndexOf {
+public class C01_indexOf {
 
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 package day12_stringManipulations;
 
-public class C03_isEmpty_isBlank {
+public class C04_isEmpty_isBlank {
 
     public static void main(String[] args) {
 
@@ -16,5 +16,6 @@ public class C03_isEmpty_isBlank {
 
         System.out.println(str3.isEmpty()); // false
         System.out.println(str3.isBlank()); // false
+
     }
 }

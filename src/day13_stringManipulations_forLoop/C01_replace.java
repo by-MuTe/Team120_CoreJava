@@ -19,5 +19,6 @@ public class C01_replace {
 
         System.out.println(str.replace("Java","AA"));
         // AAyi anliyorum ama yazamiyorum
+
     }
 }

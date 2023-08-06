@@ -1,4 +1,4 @@
-package day12_stringManipulation;
+package day12_stringManipulations;
 
 public class C03_isEmpty_isBlank {
 

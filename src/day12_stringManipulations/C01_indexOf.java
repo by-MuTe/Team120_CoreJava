@@ -1,4 +1,4 @@
-package day12_stringManipulation;
+package day12_stringManipulations;
 
 public class C01_indexOf {
 

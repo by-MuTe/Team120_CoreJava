@@ -14,11 +14,18 @@ public class C01_replace {
         System.out.println(str.replace('a', '*'));
         // J*v*yi *nliyorum *m* y*z*miyorum
 
+        System.out.println(str.replace("a", ""));
+        // Jvyi nliyorum m yzmiyorum
+
         System.out.println(str.replace("ama yazamiyorum", "ve yazabiliyorum"));
         // Javayi anliyorum ve yazabiliyorum
 
         System.out.println(str.replace("Java","AA"));
         // AAyi anliyorum ama yazamiyorum
+
+        str.replace("va","lala");   // yapilan degisiklik bu satir icindir
+                                                    // yazdirilmadigi icin gormeyiz
+                                                    // atama yapilmadigi icin de kalici olmaz
 
     }
 }

@@ -3,7 +3,6 @@ package day08_ifElseIfStatements;
 import java.util.Scanner;
 
 public class C03_IfElseIfStatements {
-
     public static void main(String[] args) {
 
         // Ogrenciden notunu isteyin ve harf olarak basari notunu yazdirin

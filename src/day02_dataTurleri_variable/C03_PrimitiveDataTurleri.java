@@ -1,7 +1,6 @@
 package day02_dataTurleri_variable;
 
 public class C03_PrimitiveDataTurleri {
-
     public static void main(String[] args) {
 
         // boolean : mantiksal degerler olan true ve false kabul eder

@@ -17,7 +17,7 @@ public class C06_KendiSubStringimiz {
          */
 
         if (baslangic > bitis){
-            System.out.println("baslangic degeri bitis degerinden buyuk olamaz");
+            System.out.println("Baslangic degeri bitis degerinden buyuk olamaz");
         }else if(baslangic<0 || bitis<0 || baslangic>=str.length() || bitis>=str.length()){
             System.out.println("Indexler hatali");
         }else{
@@ -25,7 +25,6 @@ public class C06_KendiSubStringimiz {
                 System.out.print(str.charAt(i));
             }
         }
-
 
         System.out.println(str.substring(baslangic,bitis));
 
@@ -40,5 +39,6 @@ public class C06_KendiSubStringimiz {
         String strIstenenBolum = str.substring(5); // kaydeder ama yazdirmaz
 
         System.out.println(str.substring(5)); // yazdirir ama kaydetmez
+
     }
 }

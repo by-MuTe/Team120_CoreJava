@@ -6,9 +6,8 @@ public class C08_AsalSayiKontrol {
 
     public static void main(String[] args) {
 
-        //  Kullanicidan pozitif bir tamsayi isteyip,
-        //  sayinin asal sayi olup olmadigini kontrol edin ve sonucu yazdirin.
-
+        //  Soru 11-    Kullanicidan pozitif bir tamsayi isteyip,
+        //              sayinin asal sayi olup olmadigini kontrol edin ve sonucu yazdirin.
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Lutfen asil sayi kontrolu icin pozitif bir tamsayi giriniz");
@@ -19,7 +18,7 @@ public class C08_AsalSayiKontrol {
         for (int i = 2; i < sayi ; i++) {
 
             if (sayi % i == 0){
-                System.out.println("Asal degil");
+                System.out.println("Girilen sayi asal degil");
                 flag = false;
                 break;
             }

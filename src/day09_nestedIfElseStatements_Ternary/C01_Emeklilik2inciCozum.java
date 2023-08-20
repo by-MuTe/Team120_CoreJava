@@ -3,7 +3,6 @@ package day09_nestedIfElseStatements_Ternary;
 import java.util.Scanner;
 
 public class C01_Emeklilik2inciCozum {
-
     public static void main(String[] args) {
 
         // Kullanicidan cinsiyetini ve yasini alin,

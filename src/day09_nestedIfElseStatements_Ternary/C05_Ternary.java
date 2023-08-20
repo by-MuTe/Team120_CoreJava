@@ -19,11 +19,11 @@ public class C05_Ternary {
         double kenar3 = scanner.nextDouble();
 
         System.out.println( kenar1==kenar2 && kenar1==kenar3 && kenar1>0
-                            ?
-                            "Eskenar ucgen"
-                            :
-                            "Eskenar degil"
-                            );
+                ?
+                "Eskenar ucgen"
+                :
+                "Eskenar degil"
+        );
 
     }
 }

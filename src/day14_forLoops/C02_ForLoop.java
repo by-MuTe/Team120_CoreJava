@@ -1,5 +1,6 @@
 package day14_forLoops;
 
+import java.io.InputStream;
 import java.util.Scanner;
 
 public class C02_ForLoop {
@@ -31,4 +32,5 @@ public class C02_ForLoop {
         }
 
     }
+
 }

@@ -1,7 +1,6 @@
 package day12_stringManipulations;
 
 public class C01_indexOf {
-
     public static void main(String[] args) {
 
         String str = "Ali topu at, topu at ali";

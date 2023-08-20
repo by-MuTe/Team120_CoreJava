@@ -21,7 +21,7 @@ public class C04_Ternary {
         // verilen input cift sayi ise "cift sayi" ,
         // input tek sayi ise 2 * input sonucunu veren bir ternary yazin
 
-         System.out.println(input % 2 == 0 ? "cift sayi" : 2 * input);
+        System.out.println(input % 2 == 0 ? "cift sayi" : 2 * input);
 
 
         // int sonuc2 = input%2==0 ? "cift sayi" : 2*input ;

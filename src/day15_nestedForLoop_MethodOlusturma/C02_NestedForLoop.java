@@ -7,21 +7,20 @@ public class C02_NestedForLoop {
 
         /*
             Kullanicidan 2 rakam alin
-            ilk rakan satir
+            ilk rakam satir
             ikinci rakam sutun olmak uzere asagidaki sekli cizdirin
 
             *  *  *  *  *
             *  *  *  *  *
             *  *  *  *  *
             *  *  *  *  *
-
          */
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("olusturulacak seklin satir sayisini giriniz");
+        System.out.println("Olusturulacak seklin satir sayisini giriniz");
         int satir = scanner.nextInt();
 
-        System.out.println("olusturulacak seklin sutun sayisini girin");
+        System.out.println("Olusturulacak seklin sutun sayisini girin");
         int sutun = scanner.nextInt();
 
         for (int i = 1; i <=satir ; i++) { // satirlari kontrol eder

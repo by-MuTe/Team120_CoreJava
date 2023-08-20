@@ -3,7 +3,6 @@ package day08_ifElseIfStatements;
 import java.util.Scanner;
 
 public class C06_Emeklilik {
-
     public static void main(String[] args) {
 
         // Soru 1-  Kullanicidan cinsiyetini ve yasini alin,

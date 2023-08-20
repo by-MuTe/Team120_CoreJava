@@ -12,15 +12,15 @@ public class C05_RakamlarToplami {
         int girilenSayi = scanner.nextInt();
 
         int sayi = girilenSayi;  // 1453
-        int birlerBasmagi = 0;
+        int birlerBasamagi = 0;
         int rakamlarToplami = 0;
 
         int basamakSayisi = (sayi + "").length(); // 4
 
         for (int i = 1; i <= basamakSayisi; i++) {
 
-            birlerBasmagi = sayi % 10;
-            rakamlarToplami += birlerBasmagi;
+            birlerBasamagi = sayi % 10;
+            rakamlarToplami += birlerBasamagi;
             sayi /= 10;
         }
 

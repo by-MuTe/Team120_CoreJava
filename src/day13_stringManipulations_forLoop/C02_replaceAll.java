@@ -1,7 +1,6 @@
 package day13_stringManipulations_forLoop;
 
 public class C02_replaceAll {
-
     public static void main(String[] args) {
 
         String str = "1Ja4va 8C9a2n5d1i1r.";

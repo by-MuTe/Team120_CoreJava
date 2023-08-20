@@ -6,6 +6,8 @@ public class C07_StringTerstenYazdirma {
 
     public static void main(String[] args) {
 
+        // Soru 9 (interview)- Kullanicidan bir String isteyin ve String’i tersten yazdirin.
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Lutfen tersten yazdirmak istediginiz metni giriniz");
         String str = scanner.nextLine();
@@ -19,7 +21,7 @@ public class C07_StringTerstenYazdirma {
         }
         System.out.println("");
 
-        // terse cevrilmis halini kaydedelim
+        // Soru 10 (interview)- Kullanicidan bir String isteyin ve String’i tersine cevirip kaydedin.
 
         String tersMetin = "";
 

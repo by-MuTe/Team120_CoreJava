@@ -3,7 +3,6 @@ package day08_ifElseIfStatements;
 import java.util.Scanner;
 
 public class C02_IfElseIfStatements {
-
     public static void main(String[] args) {
 
         // Kullanicidan bir tam sayi isteyin

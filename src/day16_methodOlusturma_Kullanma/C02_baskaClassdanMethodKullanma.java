@@ -1,7 +1,6 @@
 package day16_methodOlusturma_Kullanma;
 
 public class C02_baskaClassdanMethodKullanma {
-
     public static void main(String[] args) {
 
         C01_MethodOlusturma.altString("Bu is cok guzel", 3,10); // is cok
@@ -21,8 +20,7 @@ public class C02_baskaClassdanMethodKullanma {
             int bitIndex = true;
 
             argument'ler ile parametreler uyumlu olmazsa java CTE (altini kirmizi cizer) verir
-
-
          */
+
     }
 }

@@ -1,6 +1,7 @@
 package day17_methodOlusturma_methodOverloading;
 
 public class C04_MethodOverloading {
+
     /*
         Biz bir method call yaptigimizda
         Java oncelikle method ismini kontrol eder
@@ -34,10 +35,10 @@ public class C04_MethodOverloading {
 
     }
 
-
     public static void toplama(int sayi1 , int sayi2){ // toplama int int
 
         System.out.println("iki int'in toplami : " + (sayi1+sayi2));
+
     }
 
     public static void toplama(int a , double b){ // toplama int double
@@ -45,11 +46,13 @@ public class C04_MethodOverloading {
     }
 
     public static void toplama(double b , int a){ // toplama double int
-        System.out.println("double ve int'in toplami : " +(a+b));
+        System.out.println("double ve int'in toplami : " + (a+b));
     }
 
-    public static void toplama(double sayi1 , double sayi2){ // toplama double double
+    public static void toplama(double sayi1 , double sayi2) { // toplama double double
+
         System.out.println("double ile double'in toplami : " + (sayi1 + sayi2));
+
     }
 
     /*
@@ -58,5 +61,17 @@ public class C04_MethodOverloading {
 
         Bir class'da ismi ayni fakat signature'i farkli
         birden fazla method olusturulmasina METHOD OVERLOADING denir.
+
+        Ornegin, String’deki substring method’unda
+            - 1 parametre girersek o index’den sona kadar olan metni verir
+            - 2 parametre girersek, 1.index dahil, 2.index haric olmak uzere aradaki metni verir.
+
+        Method signature : Method ismi, parametre sayisi ve parametrelerin dizilisi demektir.
+        Method overloading icin ismin ayni olmasi gerektiginden,
+        signature degistirmek icin iki yontem kalir.
+            1- parametre sayisini degistirmek
+            2- parametrelerin data turunu veya data turu farkli olan parametrelerin yerlerini degistirmek.
+               (ayni data turundeki parametrelerin yerini degistirmek signature’i degistirmez)
      */
+
 }

@@ -12,7 +12,6 @@ public class C01_MethodOlusturma {
     //          - kullanici str'da olan index'lerden daha buyuk bir index girerse
     //          hata mesaji yazdirin.
 
-
     public static void main(String[] args) {
 
         altString("Java guzeldir",3,7); //a gu
@@ -25,19 +24,14 @@ public class C01_MethodOlusturma {
         String str= "Aramiz bozulmasin";
         altString(str,5,10); // z boz
 
-
-
     } // main method sonu
-
-
-
 
     public static void altString(String metin, int basIndex, int bitIndex ){
 
         if (basIndex>bitIndex){
-            System.out.println("Baslangic index'i bitis index'inden buyuk olamaz");
+            System.out.print("Baslangic index'i bitis index'inden buyuk olamaz");
         } else if (basIndex>=metin.length() || bitIndex>=metin.length()) {
-            System.out.println("verilen index sinirlarin disinda");
+            System.out.print("verilen index sinirlarin disinda");
         }else{
 
             for (int i = basIndex; i <bitIndex ; i++) {
@@ -45,7 +39,7 @@ public class C01_MethodOlusturma {
             }
         }
         System.out.println("");
-    }
 
+    }
 
 }// class'in sonu

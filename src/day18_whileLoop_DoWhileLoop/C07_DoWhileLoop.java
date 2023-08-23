@@ -17,18 +17,15 @@ public class C07_DoWhileLoop {
             3- do-while loop kullanicidan deger alarak yaptigimiz islemlerde
                ilk deger atamasini kod yazan kisinin degil de
                kullanicinin yapmasi acisindan avantajli
-
          */
-
 
         int bas = 30;
         int bit = 20;
         int toplam = 0;
 
-        // while loop ile baslagic degeri ile bitis degeri arasindaki
+        // while loop ile baslangic degeri ile bitis degeri arasindaki
         // sayilari toplayip yazdirin (sinirlar dahil)
         // baslangic degeri bitis'ten buyukse, toplama olmamali
-
 
         while (bas <= bit){
 

@@ -3,16 +3,14 @@ package day18_whileLoop_DoWhileLoop;
         import java.util.Scanner;
 
 public class C02_GirilenSayilariToplama {
-
     public static void main(String[] args) {
 
         // Kullanicidan toplanmak uzere sayilar alin
-        // girilen sayilarin toplami 500'u gecerse
+        // girilen sayilarin toplami 500 olur veya gecerse;
         // bu kadar sayi yeter, girilen sayilarin toplami .... oldu yazdirin
-        // girilen sayi adedi 10 veya daha yuksek olursa
+        // girilen sayi adedi 10 veya daha fazla olursa;
         // 10'dan fazla sayi giremezsin, girilen sayilarin toplami .... oldu yazdirin
         // ve islemi bitirin
-
 
         Scanner scanner;
         int sayac = 0;
@@ -40,7 +38,6 @@ public class C02_GirilenSayilariToplama {
         if(toplam>500){
             System.out.println("bu kadar sayi yeter, girilen sayilarin toplami "+toplam+" oldu");
         }
-
 
     }
 }

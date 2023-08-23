@@ -8,10 +8,9 @@ public class C05_usHesaplama {
 
     public static void main(String[] args) {
 
-        //Soru 5- Kullanicidan bir sayi ve hesaplamak istedigi ussunu isteyin.
-        //        While loop kullanarak verilen sayinin istenen ussunu hesaplayip
-        //        yazdiran bir method olusturun.
-
+        // Soru 5-  Kullanicidan bir sayi ve hesaplamak istedigi ussunu isteyin.
+        //          While loop kullanarak verilen sayinin istenen ussunu hesaplayip
+        //          yazdiran bir method olusturun.
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Lutfen ussunu hesaplayacagimiz pozitif bir sayi girin");
@@ -21,9 +20,6 @@ public class C05_usHesaplama {
         int us = scanner.nextInt();
 
         usHesapla(sayi,us);
-
-
-
 
     }
 
@@ -37,6 +33,7 @@ public class C05_usHesaplama {
             us--;
         }
 
-        System.out.println("sonuc : " + sonuc);
+        System.out.println("Sonuc : " + sonuc);
+
     }
 }

@@ -33,8 +33,9 @@ public class C01_Scope {
     }
 
     /*
+        Scope bir variable’in erisilebildigi alandir.
         Scope temelde 2'ye ayrilir
-            1- Local variable'lar
+            1- Local Variable'lar - bir method veya kod blogu icerisinde olusturulan variable’lardir.
                 A - scope'lari icinde olusturulduklari kod blogudur
                     bir method'da olusturulan variable, baska method'dan KULLANILAMAZ
                 B - Loop Scope'u
@@ -50,6 +51,10 @@ public class C01_Scope {
               Class level variable'larin scope'u tum class olsa da
               static keyword de variable'larin kullanimina etki eder
 
+              Class level variable’lar deger atamadan olusturulabilir ve kullanilabilir.
+              Eger class level bir variable’a atama yapilmadan kullanilirsa Java
+              o variable’a default olarak tanimlanan degeri atar.
+
               hastane ismi, hastane adresi, bashekim adi gibi variable'lar
               herkes icin ortak olmalidir.
               bu tur variable'lar static olarak isaretlenir
@@ -58,7 +63,7 @@ public class C01_Scope {
               tum personel icin tanimli olmakla birlikte
               bu variable'lardaki degisim herkesi ETKILEMEZ
               sadece o personeli etkiler
-              bu tur varianble'lari ise static yapmayiz
+              bu tur variable'lari ise static yapmayiz
               static olmayan class level'daki variable'lara INSTANCE variable'lar denir
 
                 C - class level static variable'lar
@@ -69,11 +74,9 @@ public class C01_Scope {
                     variable static olmayinca ustunlugu olmaz
                     bu durumda secici olan method olur
 
-                    static method'lar instance variable'larin girmesine izin vermez
-                    ama static olmayan method'lar,
-                    static olmayan(instance) variable'lari kabul eder
-
-
+                static method'lar instance variable'larin girmesine izin vermez
+                ama static olmayan method'lar,
+                static olmayan(instance) variable'lari kabul eder
      */
 
 }

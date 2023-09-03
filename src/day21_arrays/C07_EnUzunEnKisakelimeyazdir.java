@@ -9,8 +9,8 @@ public class C07_EnUzunEnKisakelimeyazdir {
         String[] isimler = {"Resul","Omer","Mehmet","Ertugrul","Ozan","Suleyman"};
 
         enUzunEnKisaYazdir(isimler);
-    }
 
+    }
 
     public static void enUzunEnKisaYazdir(String[] isimler){
 
@@ -18,7 +18,6 @@ public class C07_EnUzunEnKisakelimeyazdir {
         String enUzunKelime = isimler[0]; //  "
 
         for (int i = 0; i < isimler.length ; i++) {
-
             if (isimler[i].length() > enUzunKelime.length()){
                 enUzunKelime = isimler[i];
             }
@@ -26,7 +25,9 @@ public class C07_EnUzunEnKisakelimeyazdir {
                 enKisaKelime = isimler[i];
             }
         }
-        System.out.println("En uzun isim : " + enUzunKelime);
-        System.out.println("En kisa isim : " + enKisaKelime);
+
+        System.out.println("En uzun kelime : " + enUzunKelime);
+        System.out.println("En kisa kelime : " + enKisaKelime);
+
     }
 }

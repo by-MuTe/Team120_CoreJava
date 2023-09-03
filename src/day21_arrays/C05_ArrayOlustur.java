@@ -12,10 +12,7 @@ public class C05_ArrayOlustur {
 
         System.out.println(Arrays.toString(arrayOlustur()));
 
-
-
     }
-
 
     public static int[] arrayOlustur(){
 
@@ -33,7 +30,6 @@ public class C05_ArrayOlustur {
             System.out.println("Array icin element giriniz");
             arr[i] = scanner.nextInt();
         }
-
         return arr;
 
     }

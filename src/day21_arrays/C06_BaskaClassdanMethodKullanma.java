@@ -9,6 +9,7 @@ public class C06_BaskaClassdanMethodKullanma {
     public static void main(String[] args) {
 
         int[] arr = {2,4,6,8};
+
         System.out.println("eski array : " + Arrays.toString(arr)); // eski array : [2, 4, 6, 8]
 
         arr =C02_ArrayinElementleriniIstenenKadarArtirma.elementleriArtir(arr,4);
@@ -24,5 +25,6 @@ public class C06_BaskaClassdanMethodKullanma {
         int[] kullaniciArrayi = C05_ArrayOlustur.arrayOlustur();
 
         System.out.println(Arrays.toString(kullaniciArrayi));
+
     }
 }

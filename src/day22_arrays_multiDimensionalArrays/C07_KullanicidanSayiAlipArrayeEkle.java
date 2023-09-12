@@ -18,11 +18,11 @@ public class C07_KullanicidanSayiAlipArrayeEkle {
 
         arr = C06_ArrayeBirElemanEkleme.arrayeBirElemanEkle(arr,eklenecekSayi);
 
-
         // 5.eleman olarak 11 ekleyin
 
         arr = C06_ArrayeBirElemanEkleme.arrayeBirElemanEkle(arr,11);
 
         System.out.println(Arrays.toString(arr));
+
     }
 }

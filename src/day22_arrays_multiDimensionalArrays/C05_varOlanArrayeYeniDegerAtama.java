@@ -10,7 +10,7 @@ public class C05_varOlanArrayeYeniDegerAtama {
             Var olan bir array'e length olarak belirlenenden
             daha fazla element ATANAMAZ
 
-            ANCAk
+            ANCAK
             var olan bir array'e
             baska bir array'i deger olarak ATAYABILIRIZ
          */
@@ -25,24 +25,19 @@ public class C05_varOlanArrayeYeniDegerAtama {
         arr = new int[8];
         System.out.println(Arrays.toString(arr)); // [0, 0, 0, 0, 0, 0, 0, 0]
 
-
         String[] harfler = {"a","n","y"};
         String[] yeniHarfler = {"k","l","m","n"};
 
         harfler = yeniHarfler;
 
         System.out.println(Arrays.toString(harfler)); // [k, l, m, n]
-
         System.out.println(Arrays.toString(yeniHarfler)); // [k, l, m, n]
 
         // Eger var olan bir array'e yeni deger atamasi icin
         // liste yazmak istiyorsak asagidaki gibi atama yapabiliriz
+
         harfler = new String[]{"x"};
-
         System.out.println(Arrays.toString(harfler)); // [x]
-
-
-
 
     }
 }

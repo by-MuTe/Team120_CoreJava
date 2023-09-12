@@ -14,12 +14,14 @@ public class C02_sort {
 
         System.out.println(Arrays.toString(harfler)); // [L, P, T, a, d, t]
 
+        // kucuk harf Ascii table'da buyuk harften sonra geldigi icin daha sonraya gecer
+
         /*
             Arrays.sort() array'deki elementleri
             Natural Order'a gore siralar
 
             Array'lerde ve bundan sonra gorecegimiz ArrayList'lerde
-            method kullanildiginda array/ArrayList Kalici olarak degisir
+            method kullanildiginda array/ArrayList KALICI olarak degisir
          */
 
         String[] isimler = {"Ayse","Yusuf","Bugra","Burak","Nergiz","Neslihan","Abdullah"};
@@ -38,7 +40,6 @@ public class C02_sort {
         Arrays.sort(sayilar);
 
         System.out.println(Arrays.toString(sayilar)); // [1, 2, 3, 4, 4, 7, 78, 98]
-
 
     }
 }

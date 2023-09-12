@@ -22,5 +22,6 @@ public class C08_MultiDimensioanalArrays {
             once 5.siniflar array'ine gider
             onun icinde de 5-A array'ine bakarim
          */
+
     }
 }

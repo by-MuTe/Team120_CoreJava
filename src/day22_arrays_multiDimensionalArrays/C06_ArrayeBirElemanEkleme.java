@@ -20,14 +20,12 @@ public class C06_ArrayeBirElemanEkleme {
         //    yeniArr'ye kopyalayalim
 
         for (int i = 0; i < arr.length ; i++) {
-
             yeniArr[i] = arr[i];
         } // [3, 7, 8, 0]
 
         // 3- eklenecek elementi, yeniArr'in son index'ine atayalim
 
         yeniArr[yeniArr.length-1] = eklenecekSayi; // [3, 7, 8, 10]
-
 
         // 4- eski arr'ye yeni degeri atayalim
 
@@ -42,7 +40,6 @@ public class C06_ArrayeBirElemanEkleme {
         int[] yeniArr = new int[eskiArr.length+1];
 
         for (int i = 0; i < eskiArr.length ; i++) {
-
             yeniArr[i] = eskiArr[i];
         }
 
@@ -50,6 +47,6 @@ public class C06_ArrayeBirElemanEkleme {
 
         eskiArr = yeniArr;
 
-        return yeniArr;
+        return eskiArr;
     }
 }

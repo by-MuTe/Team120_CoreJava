@@ -26,6 +26,5 @@ public class C01_Arrays {
 
         System.out.println("\nToplam " + sayac + " adet isim yazdirildi.");
 
-
     }
 }

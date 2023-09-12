@@ -8,7 +8,7 @@ public class C04_StringSplitMethodu {
 
         String str = "Java candir, Selenium heyecan";
 
-         String[] kelimeler =  str.split(" ");
+        String[] kelimeler =  str.split(" ");
 
         System.out.println(Arrays.toString(kelimeler));
         // [Java, candir,, Selenium, heyecan]
@@ -16,12 +16,9 @@ public class C04_StringSplitMethodu {
         String[] yeniArr = str.split(", ");
         System.out.println(Arrays.toString(yeniArr)); // [Java candir, Selenium heyecan]
 
-
         String[] karakterler = str.split("");
         System.out.println(Arrays.toString(karakterler));
         // [J, a, v, a,  , c, a, n, d, i, r, ,,  , S, e, l, e, n, i, u, m,  , h, e, y, e, c, a, n]
-
-
 
     }
 }

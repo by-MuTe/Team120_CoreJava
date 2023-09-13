@@ -43,5 +43,13 @@ public class C03_binarySearch {
         // binarySearch() ile array’de olmayan bir eleman aranirsa,
         // olmasi gereken sirayi – ile VERIR.
 
+        /*
+            Olmayan bir element aratilirsa,
+            once array'de olsaydi nerede olurdu bunu buluyoruz
+            olmasi gereken siranin - isaretli degerini veriyoruz
+            bu mantikla en kucuk element'den daha kucuk butun sayilar icin -1
+            en buyuk elementden buyuk olan butun sayilar icin de -(length+1) degeri dondurur
+         */
+
     }
 }

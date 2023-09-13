@@ -54,7 +54,6 @@ public class C01_TekrarEdenSayilariSilme {
             arr[i] = tekrarsizList.get(i);
         }
 
-
         System.out.println(Arrays.toString(arr)); // [2, 4, 5, 3, 1, 7]
 
     }

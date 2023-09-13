@@ -1,9 +1,9 @@
 package day07_ifStatements;
 
-public class C02_BagimsizIfCumleleri {
-    public static void main(String[] args) {
+public class C02_BagimsizifCumleleri {
 
-         /*
+    public static void main(String[] args) {
+        /*
             Dikkat edilecekler
             1- eger boolean sarttan sonra {} kullanilmazsa
                Java if body'si olarak ilk ; e kadar olan bolumu alir
@@ -27,10 +27,10 @@ public class C02_BagimsizIfCumleleri {
             System.out.println("a b'den kucuk 3");
         }
 
+
         if (a % 2 == 0)
             System.out.println("a 2 ile tam bolunuyor 1"); // ilk ; e kadar olan kisim if body'sidir
             System.out.println("a 2 ile tam bolunuyor 2"); // sonraki satirlarin if ile ilgisi yoktur
             System.out.println("a 2 ile tam bolunuyor 3");
-
     }
 }

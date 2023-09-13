@@ -13,7 +13,6 @@ public class C03_ArraydekiEnBuyukEnKucukSayilariyazdirma {
 
     }
 
-
     public static void enBuyukEnKucukYazdir(int[][] arr){
 
         int enKucukSayi = arr[0][0];
@@ -32,11 +31,11 @@ public class C03_ArraydekiEnBuyukEnKucukSayilariyazdirma {
                 if (arr[i][j] > enBuyukSayi){
                     enBuyukSayi = arr[i][j];
                 }
-
             }
 
         }
         System.out.println("En kucuk sayi : " + enKucukSayi);
         System.out.println("En buyuk sayi : " + enBuyukSayi);
+
     }
 }

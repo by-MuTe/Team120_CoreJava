@@ -40,6 +40,5 @@ public class C01_TumElementleriToplama {
 
         System.out.println("sayilar array'inin elementleri toplami : " + toplam);
 
-
     }
 }

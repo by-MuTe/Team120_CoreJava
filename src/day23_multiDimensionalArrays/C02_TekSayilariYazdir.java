@@ -9,7 +9,6 @@ public class C02_TekSayilariYazdir {
         // aralarinda bir bosluk birakarak yanyana yazdirin
         // en sona da "toplam ... sayi yazdirildi" seklinde aciklama yazdirin
 
-
         int sayac=0;
 
         for (int i = 0; i < arr.length ; i++) { // outer array'i kontrol eder
@@ -19,10 +18,8 @@ public class C02_TekSayilariYazdir {
                 // arr[i][j] tum elementleri sirasiyla bana getirir
 
                 if (arr[i][j] % 2 == 1){
-
                     System.out.print(arr[i][j] + " ");
                     sayac++;
-
                 }
             }
         }

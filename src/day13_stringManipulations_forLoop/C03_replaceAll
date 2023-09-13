@@ -2,7 +2,7 @@ package day13_stringManipulations_forLoop;
 
 import java.util.Scanner;
 
-public class C03_replaceAll {
+public class C03_ReplaceAll {
     public static void main(String[] args) {
 
         // Kullanicidan bir metin isteyin
@@ -14,6 +14,7 @@ public class C03_replaceAll {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Lutfen istediginiz mesaji girin");
         String metin = scanner.nextLine();
+
 
         // once sayilardan kurtulalim
         metin = metin.replaceAll("\\d",""); // J*av.a C/an=+dir--
@@ -33,6 +34,7 @@ public class C03_replaceAll {
         metin= metin.replace("_","");
 
         metin = metin + ".";
+
 
         System.out.println(metin); // Java Candir.
 

@@ -34,4 +34,21 @@ public class C08_ArrayeElementEkleme {
         return arr;
 
     }
+
+    public static String[] elementEkleme (String[] arr , String eklenecekElement) {
+
+        int length = arr.length;
+        String[] newArr = new String[length+1];
+
+        for (int i = 0; i < length ; i++) {
+            newArr[i]=arr[i];
+        }
+
+        newArr[length]= eklenecekElement;
+
+        arr=newArr;
+
+        return arr;
+
+    }
 }

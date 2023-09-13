@@ -1,6 +1,6 @@
 package day10_switchCase_StringManipulations;
 
-public class C05_Equals {
+public class C05_equals {
     public static void main(String[] args) {
 
         String str1 = "Mehmet";

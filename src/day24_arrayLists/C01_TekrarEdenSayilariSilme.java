@@ -8,8 +8,11 @@ public class C01_TekrarEdenSayilariSilme {
 
     public static void main(String[] args) {
 
-        // verilen bir int array'de, tekrar eden elementleri silin
-        // array'i unique degerlerden olusan haline donusturun
+        /*
+            Soru 1 -    Verilen bir array’de tekrar eden elementler icin,
+                        mukerrer olanlari silip,
+                        tum elemanlardan sadece 1 tane yapip bize dondurecek bir method olusturun.
+         */
 
         int[] arr = {2,4,5,3,2,5,1,5,3,7};
 
@@ -21,8 +24,9 @@ public class C01_TekrarEdenSayilariSilme {
             ama uzunlugu esnek olan ArrayList class'ini olusturmustur.
          */
 
-
         List<Integer> tekrarsizList = new ArrayList<>();
+        // listler primitive data turlerinden olusmaz
+        // non-primitive data türleri kullanırız
 
         System.out.println(tekrarsizList); // []
 

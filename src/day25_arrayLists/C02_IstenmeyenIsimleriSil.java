@@ -7,9 +7,9 @@ public class C02_IstenmeyenIsimleriSil {
 
     public static void main(String[] args) {
 
-        // Soru 3- Verilen String bir listede
-        //         istenmeyen harf iceren elementleri silip,
-        //         kalan kismini list olarak bize donduren bir method olusturun
+        // Soru 3 - Verilen String bir listede
+        //          istenmeyen harf iceren elementleri silip,
+        //          kalan kismini list olarak bize donduren bir method olusturun
 
         String[] arr = {"Mehmet","Ramazan","Ozan","Berk","Nergiz","Ayfer","Bugra"};
         List<String> isimler = new ArrayList<>();
@@ -25,7 +25,6 @@ public class C02_IstenmeyenIsimleriSil {
 
         isimler = istenmeyenleriSil(isimler,"a");
 
-
     }
 
     public static List<String> istenmeyenleriSil(List<String> isimler,String istenmeyenHarf){
@@ -40,6 +39,7 @@ public class C02_IstenmeyenIsimleriSil {
             ve SILINMEYECEK elemanlari o listeye ekleyip
             yeni listeyi döndürelim
          */
+
         List<String> yeniList = new ArrayList<>();
 
         for (int i = 0; i <isimler.size() ; i++) {
@@ -50,5 +50,6 @@ public class C02_IstenmeyenIsimleriSil {
         }
 
         return yeniList;
+
     }
 }

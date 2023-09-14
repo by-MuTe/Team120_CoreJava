@@ -32,5 +32,6 @@ public class C03_ListMethodlar {
         tumsayilar.add(7);
 
         System.out.println(tumsayilar.containsAll(sayilar)); // true
+
     }
 }
